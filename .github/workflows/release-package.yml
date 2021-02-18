@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Andamio Cell Packages
 
 on:
   release:
@@ -12,7 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
+      - run: cd /Anchor
+      - run: npm install
       - run: npm test
 
   publish-gpr:
@@ -24,7 +25,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm publish
+      - run: cd /Anchor
+      - run: npm install
+      - run: npm test
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
