@@ -1,0 +1,54 @@
+{
+  "name": "@andamio/anchor",
+  "version": "0.0.1",
+  "description": "Anchor component",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode production --config config/webpack.config.js --watch",
+    "build": "webpack --mode production --config config/webpack.config.js --progress",
+    "prepublishOnly": "npm unlink && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viaducto/andamio.git"
+  },
+  "keywords": [
+    "anchor",
+    "component",
+    "viaducto",
+    "design-system"
+  ],
+  "author": "Viaducto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viaducto/andamio/issues"
+  },
+  "homepage": "https://github.com/viaducto/andamio#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "@babel/preset-react": "^7.12.13",
+    "css-loader": "^5.0.2",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-watch": "^7.0.0",
+    "proptypes": "^1.1.0",
+    "react": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
