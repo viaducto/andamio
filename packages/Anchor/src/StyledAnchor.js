@@ -31,5 +31,3 @@ export default styled.a`
     height: 1em;
   }
 `;
-
-export default StyledAnchor;
