@@ -1,6 +1,6 @@
 {
   "name": "@andamio/span",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Span component",
   "main": "build/index.js",
   "scripts": {
@@ -36,8 +36,8 @@
     "@babel/node": "^7.12.16",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.16",
-    "babel-loader": "^8.2.2",
     "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",

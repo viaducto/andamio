@@ -1,6 +1,6 @@
 {
   "name": "@andamio/input",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Input component",
   "main": "build/index.js",
   "scripts": {
@@ -27,8 +27,8 @@
   "homepage": "https://github.com/viaducto/andamio#readme",
   "peerDependencies": {
     "react": "^17.0.1",
-    "styled-components": "^5.2.1",
-    "react-ikonate": "^2.0.1"
+    "react-ikonate": "^2.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.16",
@@ -37,8 +37,8 @@
     "@babel/node": "^7.12.16",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.16",
-    "babel-loader": "^8.2.2",
     "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
