@@ -21,10 +21,6 @@
   ],
   "author": "Viaducto",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/viaducto/andamio/issues"
-  },
-  "homepage": "https://github.com/viaducto/andamio#readme",
   "peerDependencies": {
     "react": "^17.0.1",
     "styled-components": "^5.2.1"
@@ -56,5 +52,5 @@
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
   },
-  "gitHead": "b16a9c154cc57a1675870604c5297ed68624d7ca"
+  "gitHead": "70cd4ada0808c80f8c77132fcca4b272eadccb91"
 }
