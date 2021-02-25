@@ -1,6 +1,6 @@
 {
   "name": "@andamio/avatar",
-  "version": "0.0.4-alpha.0",
+  "version": "1.0.0",
   "description": "Avatar component",
   "main": "build/index.js",
   "scripts": {
