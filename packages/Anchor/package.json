@@ -18,7 +18,10 @@
     "component",
     "viaducto",
     "design-system"
-  ],
+ ],
+ "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+},
   "author": "Viaducto",
   "license": "ISC",
   "peerDependencies": {
@@ -52,5 +55,5 @@
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
   },
-  "gitHead": "c20d997cf3b484a8dbcdc4da46bf4595605b74a6"
+  "gitHead": "f2535db5866b0a6f7a652e9536830361254db5ee"
 }
