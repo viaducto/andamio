@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import config from './config';
 const { spacing, text } = config;
 
-export default styled.a`
+export const StyledAnchorExternal = styled.a`
   box-sizing: border-box;
   text-decoration: none;
   color: ${({ color }) =>

@@ -1,5 +1,4 @@
-const path = require('path');
-
+const path = require('path')
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -10,10 +9,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules|build)/,
         use: {
           loader: 'babel-loader',
+          options: {
+            presets: ["@babel/preset-env",
+              "@babel/preset-react"]
+          }
         },
       },
       {
@@ -47,7 +50,7 @@ module.exports = {
       ),
       'styled-components': path.resolve(
         __dirname,
-        './node_modules/styled-components'
+        '../node_modules/styled-components'
       ),
     },
   },

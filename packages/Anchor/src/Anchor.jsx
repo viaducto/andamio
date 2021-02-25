@@ -1,5 +1,5 @@
 import React from 'react';
-import StyledAnchorExternal from './StyledAnchor';
+import { StyledAnchorExternal } from './StyledAnchor';
 
 /**
  * Anchor component with icon (or no) overrides Anchor tag
