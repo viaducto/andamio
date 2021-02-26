@@ -3,7 +3,7 @@ import { StyledAnchorExternal } from './StyledAnchor';
 
 /**
  * Anchor component with icon (or no) overrides Anchor tag
- * @param {String} label Title or content of the component
+ * @param {String} label Title or content of the component, please use text
  * @param {String} href The path of the page to visit
  * @param {Icon} icon The Icon component
  */
