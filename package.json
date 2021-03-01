@@ -1,10 +1,11 @@
 {
   "name": "root",
-  "private": false,
+  "private": true,
   "scripts": {
     "publish": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "version": "1.0.0"
 }
