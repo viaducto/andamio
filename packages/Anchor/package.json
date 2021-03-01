@@ -18,6 +18,7 @@
     "anchor",
     "component",
     "viaducto",
+    "andamio",
     "design-system"
   ],
   "publishConfig": {
@@ -56,5 +57,5 @@
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
   },
-  "gitHead": "fa82491b11397d84147d7f0f118b465a50713dba"
+  "gitHead": "709e98ea7bf2f337992a598eb96aca68c743b096"
 }
