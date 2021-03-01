@@ -1,6 +1,6 @@
 {
   "name": "@andamio/anchor",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "private": false,
   "description": "Anchor component",
   "main": "build/index.js",
