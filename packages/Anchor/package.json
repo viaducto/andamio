@@ -10,10 +10,6 @@
     "build": "webpack --mode production --config config/webpack.config.js --progress",
     "prepublishOnly": "npm unlink && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/viaducto/andamio.git"
-  },
   "keywords": [
     "anchor",
     "component",
@@ -57,5 +53,5 @@
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
   },
-  "gitHead": "709e98ea7bf2f337992a598eb96aca68c743b096"
+  "gitHead": "6dfeb548a7ac6fce19b80f293e6d95086c61474b"
 }
